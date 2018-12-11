@@ -19,6 +19,11 @@ Classe de anotation para armazenas resultados de select , stored e etc sem neces
   3. map yours ` @nativequeryresultcolumn ` with ordered resultset from ` query `
    ### ex:
    ```bash
-    @nativequeryresultcolumn(index=0) //for the first result returned from de query......
+    @nativequeryresultcolumn(index=0) // for the first result returned from de query......
     String username;
+	```
+* for use in resultset
+  ### ex:
+```bash
+Resultset.map(`RESULTSET`,[TARGE.class]);
 ```
