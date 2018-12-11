@@ -5,7 +5,7 @@ Classe de anotation para armazenas resultados de select , stored e etc sem neces
  * pass 1:
  1. import the class's into your project
  * pass2:
- 1. import a commons into your pom.xml
+ 1. import a commons into your `pom.xml  `
  ```bash
  	<dependency>
 			<groupId>commons-beanutils</groupId>
@@ -14,9 +14,9 @@ Classe de anotation para armazenas resultados de select , stored e etc sem neces
 		</dependency>
 ```
 * pass 3:
-  1. add the anotation `git @nativequeryresultentity ` into your class
-  2. add the anotation `git @nativequeryresultcolumn ` into yours vars
-  3. map yours `git @nativequeryresultcolumn ` with ordered resultset from `git query `
+  1. add the anotation ` @nativequeryresultentity ` into your class
+  2. add the anotation ` @nativequeryresultcolumn ` into yours vars
+  3. map yours ` @nativequeryresultcolumn ` with ordered resultset from ` query `
    ### ex:
    ```bash
     @nativequeryresultcolumn(index=0) //for the first result returned from de query......
