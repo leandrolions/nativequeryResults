@@ -7,7 +7,11 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.apache.commons.beanutils.BeanUtils;
-
+/**
+ * 
+ * @author lleao
+ *
+ */
 public class Results {
 
 	    public static <T> List<T> map(List<Object[]> objectArrayList, Class<T> genericType) {
