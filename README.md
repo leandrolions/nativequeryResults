@@ -20,4 +20,5 @@ Classe de anotation para armazenas resultados de select , stored e etc sem neces
    ### ex:
    ```bash
     @nativequeryresultcolumn(index=0) //for the first result returned from de query......
+    String username;
 ```
